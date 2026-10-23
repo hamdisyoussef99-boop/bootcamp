@@ -37,6 +37,9 @@ details[open] .faq-plus{transform:rotate(45deg)}
   .section-title{font-size:40px !important}
   .pad{padding-left:16px !important;padding-right:16px !important}
   .hide-sm{display:none !important}
+  .sticky-bar{display:flex !important}
+  .wa-float{display:none !important}
+  .page-end{padding-bottom:104px !important}
   .core-price{font-size:72px !important}
 }
 </style>
@@ -340,55 +343,6 @@ details[open] .faq-plus{transform:rotate(45deg)}
     </div>
   </section>
 
-  <!-- ===== Chiffres ===== -->
-  <section class="pad" style="padding: 80px 40px">
-    <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1px; background: #1E2D37; border: 1px solid #1E2D37; border-radius: 22px; overflow: hidden">
-      <div style="padding: 34px 30px; background: #0A131A; display: flex; flex-direction: column; gap: 6px">
-        <span style="font-family: 'Anton', sans-serif; font-size: 58px; line-height: 1; color: #E9F24B">419K</span>
-        <span style="font-size: 15px; color: #C9D1D3">vues sur notre vidéo n°1. Suivie de 319K et 310K.</span>
-      </div>
-      <div style="padding: 34px 30px; background: #0A131A; display: flex; flex-direction: column; gap: 6px">
-        <span style="font-family: 'Anton', sans-serif; font-size: 58px; line-height: 1; color: #E9F24B">14K+</span>
-        <span style="font-size: 15px; color: #C9D1D3">élèves abonnés à la chaîne YouTube Bac Éco</span>
-      </div>
-      <div style="padding: 34px 30px; background: #0A131A; display: flex; flex-direction: column; gap: 6px">
-        <span style="font-family: 'Anton', sans-serif; font-size: 58px; line-height: 1; color: #E9F24B">+160</span>
-        <span style="font-size: 15px; color: #C9D1D3">étudiants accompagnés dans nos bootcamps en 2026</span>
-      </div>
-      <div style="padding: 34px 30px; background: #0A131A; display: flex; flex-direction: column; gap: 6px">
-        <span style="font-family: 'Anton', sans-serif; font-size: 58px; line-height: 1; color: #E9F24B">2020</span>
-        <span style="font-size: 15px; color: #C9D1D3">prof d'économie et de compta depuis, lauréat ENCG</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== PROBLÈME ===== -->
-  <section class="pad" style="padding: 40px 40px 96px">
-    <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 44px">
-      <div style="display: flex; flex-direction: column; gap: 16px; max-width: 900px">
-        <div style="display: flex; align-items: center; gap: 14px"><div style="width: 40px; height: 2px; background: #C9A227"></div><span style="font-size: 13px; font-weight: 700; letter-spacing: 0.3em; color: #C9A227">LE VRAI PROBLÈME</span></div>
-        <h2 class="section-title" style="margin: 0; font-family: 'Anton', sans-serif; font-weight: 400; font-size: 60px; line-height: 1.14; text-transform: uppercase">Ce n'est pas ton niveau qui coûte des points. <span style="color: #E9F24B">C'est la méthode.</span></h2>
-      </div>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px">
-        <div style="padding: 32px; border-radius: 20px; background: #0F1B23; border: 1px solid #1E2D37; display: flex; flex-direction: column; gap: 12px">
-          <span style="font-family: 'Anton', sans-serif; font-size: 20px; color: #C9A227">01</span>
-          <div style="font-weight: 800; font-size: 20px">Trois profs, trois méthodes</div>
-          <p style="margin: 0; color: #C9D1D3">Un prof pour l'éco, un pour la compta, un pour l'orga. Personne ne voit ton programme en entier. C'est toi qui dois tout recoller.</p>
-        </div>
-        <div style="padding: 32px; border-radius: 20px; background: #0F1B23; border: 1px solid #1E2D37; display: flex; flex-direction: column; gap: 12px">
-          <span style="font-family: 'Anton', sans-serif; font-size: 20px; color: #C9A227">02</span>
-          <div style="font-weight: 800; font-size: 20px">Du cours, pas d'entraînement</div>
-          <p style="margin: 0; color: #C9D1D3">Tu comprends en classe, puis tu bloques devant un sujet national. Il te manque les automatismes&#160;: savoir ce qui tombe et comment le rédiger.</p>
-        </div>
-        <div style="padding: 32px; border-radius: 20px; background: #0F1B23; border: 1px solid #1E2D37; display: flex; flex-direction: column; gap: 12px">
-          <span style="font-family: 'Anton', sans-serif; font-size: 20px; color: #C9A227">03</span>
-          <div style="font-weight: 800; font-size: 20px">Le rattrapage ferme des portes</div>
-          <p style="margin: 0; color: #C9D1D3">Pour le TAFEM (ENCG), l'inscription se termine avant les résultats du rattrapage. Les grandes écoles se jouent à la session normale.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- ===== MÉTHODE ===== -->
   <section id="methode" class="pad" style="padding: 96px 40px; background: #0D1820; border-top: 1px solid #1E2D37; border-bottom: 1px solid #1E2D37">
     <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 48px">
@@ -440,34 +394,6 @@ details[open] .faq-plus{transform:rotate(45deg)}
     </div>
   </section>
 
-  <!-- ===== RATTRAPAGE ===== -->
-  <section class="pad" style="padding: 96px 40px; background: #0D1820; border-top: 1px solid #1E2D37; border-bottom: 1px solid #1E2D37">
-    <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
-      <div style="flex: 1 1 380px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
-        <div style="display: flex; align-items: center; gap: 14px"><div style="width: 40px; height: 2px; background: #C9A227"></div><span style="font-size: 13px; font-weight: 700; letter-spacing: 0.3em; color: #C9A227">TU ARRIVES MAINTENANT&#160;?</span></div>
-        <h2 class="section-title" style="margin: 0; font-family: 'Anton', sans-serif; font-weight: 400; font-size: 60px; line-height: 1.14; text-transform: uppercase">Tu n'as rien raté. <span style="color: #E9F24B">Tout est en replay.</span></h2>
-        <p style="margin: 0; font-size: 18px; color: #C9D1D3">La prépa a commencé le 5 octobre. Chaque live depuis le premier jour est enregistré, rangé par matière et par séance, avec son support de cours. Voici comment rattraper le groupe.</p>
-      </div>
-      <div style="flex: 999 1 560px; min-width: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px">
-          <div style="padding: 28px; border-radius: 20px; background: #0A131A; border: 1px solid #1E2D37; display: flex; flex-direction: column; gap: 10px">
-            <span style="font-family: 'Anton', sans-serif; font-size: 18px; color: #C9A227">ÉTAPE 1</span>
-            <span style="font-weight: 800; font-size: 19px">Accès à tous les replays</span>
-            <span style="color: #C9D1D3">Dès ton inscription, tu retrouves toutes les séances passées dans la communauté.</span>
-          </div>
-          <div style="padding: 28px; border-radius: 20px; background: #0A131A; border: 1px solid #1E2D37; display: flex; flex-direction: column; gap: 10px">
-            <span style="font-family: 'Anton', sans-serif; font-size: 18px; color: #C9A227">ÉTAPE 2</span>
-            <span style="font-weight: 800; font-size: 19px">Commence par la Séance 0</span>
-            <span style="color: #C9D1D3">Dans chaque matière, la Séance 0 pose les bases et la méthode. C'est ton point de départ.</span>
-          </div>
-          <div style="padding: 28px; border-radius: 20px; background: #0A131A; border: 1px solid #1E2D37; display: flex; flex-direction: column; gap: 10px">
-            <span style="font-family: 'Anton', sans-serif; font-size: 18px; color: #C9A227">ÉTAPE 3</span>
-            <span style="font-weight: 800; font-size: 19px">Rattrape à ton rythme</span>
-            <span style="color: #C9D1D3">Tu suis les nouveaux lives avec le groupe, et tu poses tes questions en direct ou dans la communauté.</span>
-          </div>
-      </div>
-    </div>
-  </section>
-
   <!-- ===== OFFRES ===== -->
   <section id="offres" class="pad" style="padding: 104px 40px">
     <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 52px">
@@ -475,6 +401,7 @@ details[open] .faq-plus{transform:rotate(45deg)}
         <div style="display: flex; align-items: center; gap: 14px"><div style="width: 40px; height: 2px; background: #C9A227"></div><span style="font-size: 13px; font-weight: 700; letter-spacing: 0.3em; color: #C9A227">LES FORMULES</span><div style="width: 40px; height: 2px; background: #C9A227"></div></div>
         <h2 class="section-title" style="margin: 0; font-family: 'Anton', sans-serif; font-weight: 400; font-size: 64px; line-height: 1.14; text-transform: uppercase">Choisis ton niveau <span style="color: #E9F24B">d'accompagnement.</span></h2>
         <p style="margin: 0; max-width: 640px; color: #C9D1D3; font-size: 18px">Tarif de lancement réservé aux premiers inscrits. Il passe au prix normal une fois les places parties.</p>
+        <p style="margin: 0; display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 999px; background: #0F1B23; border: 1px solid #1E2D37; font-size: 15px; color: #F2EFE6"><span style="width: 8px; height: 8px; border-radius: 50%; background: #E9F24B"></span>Tu arrives maintenant&#160;? Tous les replays depuis le 5 octobre sont inclus.</p>
       </div>
 
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 22px; align-items: stretch; width: 100%; max-width: 900px; margin: 0 auto">
@@ -686,16 +613,8 @@ details[open] .faq-plus{transform:rotate(45deg)}
           <p style="margin: 14px 0 0; color: #C9D1D3">Les deux. Le programme couvre le 2ème Bac Sciences Économiques et Sciences de Gestion Comptable.</p>
         </details>
         <details style="padding: 24px 26px; border-radius: 18px; background: #0F1B23; border: 1px solid #1E2D37">
-          <summary style="display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 800; font-size: 18px; min-height: 28px">Comment marche la garantie mention&#160;?<span class="faq-plus" style="flex: none; font-size: 28px; line-height: 1; color: #E9F24B; transition: transform .2s">+</span></summary>
-          <p style="margin: 14px 0 0; color: #C9D1D3">Si tu as assisté à au moins 80 % des lives depuis ta date d'inscription et que tu n'obtiens pas de mention (12/20 ou plus) dans les matières qu'on enseigne à l'examen national, on te rembourse la totalité de ton inscription. Il suffit de nous envoyer ton relevé de notes. On s'engage parce que la méthode fonctionne quand on la suit.</p>
-        </details>
-        <details style="padding: 24px 26px; border-radius: 18px; background: #0F1B23; border: 1px solid #1E2D37">
           <summary style="display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 800; font-size: 18px; min-height: 28px">Et les maths&#160;?<span class="faq-plus" style="flex: none; font-size: 28px; line-height: 1; color: #E9F24B; transition: transform .2s">+</span></summary>
           <p style="margin: 14px 0 0; color: #C9D1D3">Les maths sont une option à 600 dhs, assurée par un professeur partenaire de confiance.</p>
-        </details>
-        <details style="padding: 24px 26px; border-radius: 18px; background: #0F1B23; border: 1px solid #1E2D37">
-          <summary style="display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 800; font-size: 18px; min-height: 28px">Je suis parent&#160;: comment suivre la progression de mon enfant&#160;?<span class="faq-plus" style="flex: none; font-size: 28px; line-height: 1; color: #E9F24B; transition: transform .2s">+</span></summary>
-          <p style="margin: 14px 0 0; color: #C9D1D3">Chaque mois, vous recevez un point sur sa progression. Et pour toute question, vous pouvez écrire directement au prof sur WhatsApp.</p>
         </details>
         <details style="padding: 24px 26px; border-radius: 18px; background: #0F1B23; border: 1px solid #1E2D37">
           <summary style="display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 800; font-size: 18px; min-height: 28px">Comment je paie, et quand j'ai accès&#160;?<span class="faq-plus" style="flex: none; font-size: 28px; line-height: 1; color: #E9F24B; transition: transform .2s">+</span></summary>
@@ -720,15 +639,27 @@ details[open] .faq-plus{transform:rotate(45deg)}
     </div>
   </section>
 
-  <footer class="pad" style="padding: 30px 40px; border-top: 1px solid #1E2D37">
+  <footer class="pad page-end" style="padding: 30px 40px; border-top: 1px solid #1E2D37">
     <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; font-size: 14px; color: #A9B4B8">
       <span><span style="font-family: 'Anton', sans-serif; color: #C9A227; font-size: 18px">16+</span>&#160; ACADEMY · © 2026 · hamdis16plus.com</span>
       <span>Instagram &amp; YouTube&#160;: <a href="https://www.instagram.com/hamdis16eco">@hamdis16eco</a></span>
     </div>
   </footer>
 
+  <!-- Barre fixe mobile -->
+  <div class="sticky-bar" style="position: fixed; left: 0; right: 0; bottom: 0; z-index: 10; padding: 12px 16px; background: rgba(10,19,26,0.96); border-top: 1px solid #C9A227; display: none; align-items: center; justify-content: space-between; gap: 12px; box-shadow: 0 -10px 30px rgba(0,0,0,0.4)">
+    <div style="display: flex; flex-direction: column; line-height: 1.25; min-width: 0">
+      <span style="font-size: 11px; font-weight: 800; letter-spacing: 0.16em; color: #C9A227">PRÉPA LIVE 16+</span>
+      <span style="font-size: 14px; color: #C9D1D3; white-space: nowrap"><strong style="font-family: 'Anton', sans-serif; font-weight: 400; font-size: 20px; color: #F2EFE6">1 847 dhs</strong> / an · ou 400 / mois</span>
+    </div>
+    <a href="https://wa.me/212667900913?text=Je%20r%C3%A9serve%20ma%20place%20dans%20la%20pr%C3%A9pa%20en%20ligne%20Bac%202027" style="flex: none; display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 0 18px; border-radius: 12px; background: #E9F24B; color: #0A131A; font-weight: 800; font-size: 15px; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"></path></svg>
+      Réserver
+    </a>
+  </div>
+
   <!-- Bouton WhatsApp flottant -->
-  <a href="https://wa.me/212667900913?text=Je%20r%C3%A9serve%20ma%20place%20dans%20la%20pr%C3%A9pa%20en%20ligne%20Bac%202027" aria-label="Écrire sur WhatsApp" style="position: fixed; right: 20px; bottom: 20px; z-index: 10; width: 60px; height: 60px; border-radius: 50%; background: #25D366; color: #0A131A; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(0,0,0,0.45)">
+  <a href="https://wa.me/212667900913?text=Je%20r%C3%A9serve%20ma%20place%20dans%20la%20pr%C3%A9pa%20en%20ligne%20Bac%202027" class="wa-float" aria-label="Écrire sur WhatsApp" style="position: fixed; right: 20px; bottom: 20px; z-index: 10; width: 60px; height: 60px; border-radius: 50%; background: #25D366; color: #0A131A; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(0,0,0,0.45)">
     <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"></path></svg>
   </a>
 
